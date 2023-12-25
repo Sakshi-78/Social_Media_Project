@@ -7,7 +7,6 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser')
 const MongoStore = require('connect-mongo');
 
-// Load environment variables from a .env file if you're using it
 require('dotenv').config();
 app.use(cookieParser())
 app.use(express.json());
